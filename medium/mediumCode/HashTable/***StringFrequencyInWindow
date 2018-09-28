@@ -1,0 +1,48 @@
+public class Solution {
+  public List<Frequency> frequency(String input) {
+    ArrayList<Frequency>res = new ArrayList<Frequency>();
+    TreeMap<String, Integer>map = new TreeMap<String, Integer>();
+    map.put("ABCD",0);
+    map.put("ABDC",0);
+    map.put("ACBD",0);
+    map.put("ACDB",0);
+    map.put("ADBC",0);
+    map.put("ADCB",0);
+    map.put("BACD",0);
+    map.put("BADC",0);
+    map.put("BCAD",0);
+    map.put("BCDA",0);
+    map.put("BDAC",0);
+    map.put("BDCA",0);
+    map.put("CABD",0);
+    map.put("CADB",0);
+    map.put("CBAD",0);
+    map.put("CBDA",0);
+    map.put("CDAB",0);
+    map.put("CDBA",0);
+    map.put("DABC",0);
+    map.put("DACB",0);
+    map.put("DBAC",0);
+    map.put("DBCA",0);
+    map.put("DCAB",0);
+    map.put("DCBA",0);
+    for(int i=0;i<=input.length()-4; i++){
+      int j = i+4;
+      if(map.containsKey(input.substring(i,j))){
+        map.put(input.substring(i,j),map.get(input.substring(i,j))+1);
+      }
+    }
+    ArrayList<Map.Entry<String, Integer>> list = new ArrayList<Map.Entry<String,Integer>>(map.entrySet());
+    Collections.sort(list, new Comparator<Map.Entry<String, Integer>>(){
+				public int compare(Map.Entry<String, Integer>one, Map.Entry<String, Integer>two) {
+          if (one.getValue()==two.getValue())return one.getKey().compareTo(two.getKey());
+					return two.getValue()-one.getValue();
+				}
+			});
+    for(int i = 0;i<list.size();i++){
+       Map.Entry<String, Integer>entry = list.get(i);
+       if(entry.getValue()>0)res.add(new Frequency(entry.getKey(), entry.getValue()));
+    }
+    return res;
+  }
+}

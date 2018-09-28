@@ -1,0 +1,69 @@
+1, Remember to think if not num  before write len(num)
+
+2, remember to return at the end
+
+3, set.add() not append()
+
+4, consider problem related to number, consider the case like only 0
+
+5, begin test case at the most easy case
+
+5, i,j dont write to start and end
+
+6, 有关于数组循环删除元素的操作，尽量用while loop， 因为用for loop 有可能新的i（减一之后的）会不在range循环之内，然后就会出错
+
+7, 在通过index 获取元素之前， 一定要记得判断是否index越界！！！！！
+
+8, 记得string的加减不能append要+, 而且不要进行 str[i],str[j]=str[j],str[i]等交换字符的操作
+
+9, 字母相减得数字， 加ord() ord('b')-ord('a')=1
+
+10, "c"*3 is "ccc" not ["c", "c","c]
+
+11, input.split(" ")
+
+12, 当数组的长度在减小的时候，不要用for 循环， 用while
+
+13, bfs想到 queue
+
+14, 别老是只用i， j， 这样会导致多个index 混乱
+
+15, 找最短距离用bfs
+
+16, bfs的时候，不要每次queue pop出来一次之后就step++！！！！！ 要计算每个点距离的时候用 dis[i+1][j]=dis[i][j]+1!!!!!!
+
+17, linkedlist去除尾部之后的元素（或者删除操作）， 一定要cur.next = None, 不可以cur = None
+
+18, 与指针有关的node的删除操作（无论linkedlist还是Tree）一定都是node.next(Tree.left) = None/something, 不可以是 node = None 或者 TreeNode = None，这样只是
+改变了该指针的引用，并无实际上删除node
+
+19, 二维数组dfs问题记得避免死递归， 不要重复回去原来来时候的方向
+
+20, 想不出来的时候，把遍历过程都列出来找规律
+
+21, in binary search, while i<j will easy to get dead loop
+
+
+
+
+典型的O n 方法：
+dp
+two pointer i j 一起动
+利用hashmap
+先遍历一遍得出一些信息， 遍历过程中可能取模，或者得到prefix sum的数列，相减就是元素值
+
+
+方法：
+1，将0 1 问题换成-1 1 问题， -1+1=0
+
+2， 新学的一种排序方法 O(n)，不过浪费空间， 遍历数组得到min 和 max， 创建max-min+1 size 的数组list， 在遍历一次数组，将list中对应index的数改写为（+1，-1） 或者数组值
+
+3, 用dict来记录缺什么， 然后这个值可以是负的，代表超额多少。
+
+4， 用一个大小为k的heap来记录一个window
+
+5, 用list= [0]*123 来记录ascii，遍历到某个letter i， 然后list[ord(i)]+=1
+
+6, search string in another string problem: 用dic记录length小的string P 的element个数， 遍历大的string S， 同时dic加减，可以有负数存在（代表S的substring所含该element过多）
+
+7, 滑动窗口(size = k)问题，用list来存index， 当遍历到i 的时候，i-list[0](最小的index）>k, 则list.popleft()（ 详见 slidingWindow）

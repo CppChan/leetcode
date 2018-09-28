@@ -1,0 +1,16 @@
+-public class Solution {
+  public int smallerPairs(int[] array, int target) {
+    Arrays.sort(array);
+    int res = 0;
+    int i = 0; //!!!!!!!Remember to define i and j here, because they will be used out of loop
+    int j = 0;
+    for( i = 0; i<array.length-1; i++){
+      for(j = i+1; j< array.length; j++){
+        if(array[i]+array[j]>=target)break;
+        else res++;
+      }
+      if(j == i+1) break;
+    }
+    return res;
+  }
+}

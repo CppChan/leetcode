@@ -1,0 +1,24 @@
+public class Solution {
+  public int maxWeightSum(IntervalW[] intervals) {
+    Arrays.sort(intervals, new Comparator<IntervalW>(){
+		  public int compare(IntervalW one, IntervalW two) {
+			  return one.start-two.start;
+			}
+		});
+    int[] dp = new int[intervals.length];
+    int res = 0;
+    for(int i = 0;i<dp.length; i++){
+      if(i == 0){
+        dp[i]=intervals[i].weight;
+      }else{
+        int tempmax = 0;
+        for( int j = i-1; j>=0;j--){
+          if(intervals[j].end<=intervals[i].start && dp[j]>tempmax)tempmax = dp[j];
+        }
+        dp[i]=tempmax+intervals[i].weight;
+      }
+      if (dp[i]>res)res = dp[i];
+    }
+    return res;
+  }
+}

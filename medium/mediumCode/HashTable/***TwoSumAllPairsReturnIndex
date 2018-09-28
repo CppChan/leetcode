@@ -1,0 +1,27 @@
+public class Solution {
+  public List<List<Integer>> allPairs(int[] array, int target) {
+    HashMap<Integer,ArrayList<Integer>>map = new HashMap<Integer,ArrayList<Integer>>();
+    List<List<Integer>>res = new ArrayList();
+    for(int i = 0;i<array.length; i++){
+      if (map.containsKey(array[i])==true){
+        ArrayList<Integer>index = map.get(array[i]);
+        for(int j = 0; j<index.size(); j++){
+          ArrayList<Integer>temp = new ArrayList<Integer>();
+          temp.add(index.get(j));
+          temp.add(i);
+          res.add(temp);
+        }
+      }
+      if(map.containsKey(target-array[i])==true){ #!!!!!!!!!!here important, must have this step, for every element, put target-element into map
+        ArrayList<Integer>index = map.get(target-array[i]);
+        index.add(i);
+        map.put(target-array[i],index);
+      }else{
+        ArrayList<Integer>index = new ArrayList<Integer>();
+        index.add(i);
+        map.put(target-array[i], index);
+      }
+    }
+    return res;
+  }
+}

@@ -1,0 +1,22 @@
+public class Solution {
+  public List<Integer> closest(int[] array, int target) {
+    Arrays.sort(array);
+    int i = 0;
+    int j = array.length-1;
+    List<Integer>res = null;
+    int diff = Integer.MAX_VALUE;
+    while (i<j){
+       if (Math.abs((array[i]+array[j])-target)<diff){
+         List<Integer>temp = new ArrayList<Integer>();
+         temp.add(array[i]);
+         temp.add(array[j]);
+         res = temp;
+         diff = Math.abs((array[i]+array[j])-target);
+         if(diff == 0) break;
+       }
+       if(array[i]+array[j]>target)j--;
+       else i++;
+    }
+    return res;
+  }
+}

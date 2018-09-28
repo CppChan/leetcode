@@ -1,0 +1,10 @@
+1, subarray sum:
+    1, minimum size subarray sum == target: 先求prefix sum array， 再用two sum做法， 比如
+    prefix sum array = [-2,-1,0,3,1,0,4], target = 4, 构造dic={2:0,3:1,....}
+
+    2，follow up: maximum size subarray sum == 0: 上面的target==0
+
+    3，follow up: subarray sum == target*k(k为常数）: 先求prefix sum array，构造模余的dic，prefix[i]%target
+    存在于dic的时候，对比dic[prefix[i]%target]那个数与target是否差k*target
+
+    4, minimum size subarray(all positive) sum>= target: two pointer做

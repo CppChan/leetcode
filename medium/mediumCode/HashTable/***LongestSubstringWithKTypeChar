@@ -1,0 +1,34 @@
+public class Solution {
+  public String longest(String input, int k) {
+    HashSet<Character>set = new HashSet<Character>();
+    for(int i = 0; i<input.length();i++){
+      set.add(input.charAt(i));
+    }
+    if(set.size()<k)return null;
+    if(set.size()==k)return input;
+    HashMap<Character, Integer>map = new HashMap<Character, Integer>();
+    int i = 0, j=0, size=1, maxsize = 0;
+    String res = "";
+    map.put(input.charAt(0),1);
+    for(j = 1; j<input.length(); j++){
+       if(map.containsKey(input.charAt(j))){
+         map.put(input.charAt(j), map.get(input.charAt(j))+1);
+         size++;
+       }else{
+         while(map.size()==k&&i<j){
+           map.put(input.charAt(i), map.get(input.charAt(i))-1);
+           size--;
+           if(map.get(input.charAt(i))==0)map.remove(input.charAt(i));
+           i++;
+         }
+         map.put(input.charAt(j),1);
+         size++;
+       }
+       if (map.size()==k&&size>maxsize){
+         maxsize = size;
+         res = input.substring(i, j+1);
+       }
+    }
+    return res;
+  }
+}
