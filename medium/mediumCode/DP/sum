@@ -1,0 +1,8 @@
+1, Longest ascending 题， 可以想dfs，（但是要记得！！！二维dfs 不要走来的时候的方向，同时要用
+boolean矩阵来记录走过没有）
+
+2, ArrayHopper题（array[i]代表在该点能跳的步数，初始0， 最少几步跳到最后或跳出数组）：
+    从后向前遍历，用nearest指针记录离i最近的能跳出数组的index， 然后，if nearest-i<=array[i]: nearest = i（代表从i出发也能跳出去）
+    然后再从i开始向后遍历，找从i出发最少几步跳出去
+
+3, 一维数组二维dp for k in range(..) for i in range(len(xx)-k) j=i+k, 先确定substring的长度

@@ -1,22 +1,17 @@
 class Solution(object):
-  def firstMissingPositive(self, input):
-  	if len(input)==0: return 1
-  	i = 0
-  	while i <len(input):
-  		if input[i]<1 or input[i]>len(input):
-  			i+=1
-  			continue
-  		if input[i]!=input[input[i]-1]:#exchange num, let the element at this index to be the supposed value, ex. index 2->number 3
-  			temp = input[input[i]-1]
-  			input[input[i]-1] = input[i]
-  			input[i]=temp
-  			continue
-  		i+=1
-  	res,i = 1,0
-  	while i<len(input) and res == input[i]:
-  		res+=1
-  		i+=1
-  	return res
+  def firstMissingPositive(self, server):
+  	n = len(server)
+  	for i in range(n):
+  		while server[i]>0 and server[i]<=n and server[server[i]-1]!=server[i]:
+  			swap = server[i]-1
+  			server[i],server[swap] = server[swap],server[i]
+  	for i in range(len(server)):
+  		if server[i]!=i+1:return i+1
+  	return n+1
+
+if __name__ == "__main__":
+	s = Solution()
+	print s.firstMissingPositive2([3,4,-1,1])
 
 
-#https://leetcode.com/problems/first-missing-positive/description/
+# https://leetcode.com/problems/first-missing-positive/discuss/17071/My-short-c++-solution-O(1)-space-and-O(n)-time

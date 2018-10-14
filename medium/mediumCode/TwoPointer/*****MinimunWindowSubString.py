@@ -14,7 +14,7 @@ class Solution(object):
                     I, J = i, j
         return s[I:J]
 
-    def minWindow2(self, s, t):
+    def minWindow2(self, s, t):# ignore
         t = list(t)
         dic, letter, i, j, res, ret = {}, set(t), 0, 0, float('inf'), ""
         for i in range(len(t)):
@@ -42,10 +42,32 @@ class Solution(object):
                 if j - i + 1 < res: res, ret = j - i + 1, s[i:j + 1]
         return ret
 
+    def minWindow3(self, s, p):# by myself
+        if len(s) < len(p) or len(p) == 0: return ""
+        dic, res, ret = {}, float('inf'), ""
+        for i in range(len(p)):
+            if p[i] not in dic:dic[p[i]] = 1
+            else:dic[p[i]] += 1
+        i, j, count = 0, 0, len(dic)
+        while j < len(s):
+            while j < len(s) and count > 0:
+                if s[j] in dic:
+                    dic[s[j]] -= 1
+                    if dic[s[j]] == 0: count -= 1
+                j += 1
+            while i < j and count == 0:
+                if s[i] in dic:
+                    dic[s[i]] += 1
+                    if dic[s[i]] > 0:
+                        count += 1
+                i += 1
+            if j - i+1 < res: res, ret = j - i, s[i-1:j]
+        return ret
+
 
 if __name__ == "__main__":
         s = Solution()
-        print s.minWindow2("AOBECOBANA","AABC")
+        print s.minWindow3("AEFBGFCMNDCUIBA","ABCD")
 
         # a = 4
         # a-= 3>0

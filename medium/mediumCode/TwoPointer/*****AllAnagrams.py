@@ -16,23 +16,30 @@ class Solution(object):
                 res.append(i - m + 1)
         return res
 
-  def allAnagrams2(self, p,s):# better solution with two pointers(windows) similar with smallest substring containing another string
-  	dic,res = {},[]
-  	for i in range(len(p)):
-  		if not dic.has_key(p[i]):dic[p[i]]=1
-  		else: dic[p[i]]+=1
-  	i,j,counter=0,0,len(dic)
-  	while i <len(s) and j<len(s):
-  		if dic.has_key(s[j]):
-  			dic[s[j]]-=1# val in key-value pair can be negative, indicating that count a certain element more than string p need.
-  			if dic[s[j]]==0: counter-=1# when a element in p is count enough, counter-=1
-  		j+=1
-  		while counter==0:# counter==0 means all the element in p is find enough
-  			if dic.has_key(s[i]):
-  				dic[s[i]]+=1
-  				if dic[s[i]]>0: counter+=1# we need this certain element again
-  			if counter>0 and j-i==len(p): res.append(i)#check the length
-  			i+=1
-  	return res
-
 #https://leetcode.com/problems/find-all-anagrams-in-a-string/discuss/92007/Sliding-Window-algorithm-template-to-solve-all-the-Leetcode-substring-search-problem.
+
+  def allAnagrams(self, p, s):
+      if len(s) < len(p): return []
+      dic, k, res = {}, len(p), []
+      for i in range(len(p)):
+          if p[i] not in dic:dic[p[i]] = 1
+          else:dic[p[i]] += 1
+      i, j = 0, 0
+      while j < len(s):
+          if len(dic) == 0: res.append(j - k)
+          if s[j] in dic:dic[s[j]] -= 1
+          elif s[j] not in dic:dic[s[j]] = -1
+          if j >= k:
+              if s[i] in dic:dic[s[i]] += 1
+              elif s[i] not in dic:dic[s[i]] = 1
+              if dic[s[i]] == 0: dic.__delitem__(s[i])
+              i += 1
+          if s[j] in dic and dic[s[j]] == 0: dic.__delitem__(s[j])#if s[j] in dic? because s[i]may =s[j] and maybe deleted previously
+          j += 1
+      if len(dic) == 0: res.append(j - k)#dont forgot the last loop's operation
+      return res
+
+
+if __name__ == "__main__":
+    s = Solution()
+    print s.allAnagrams3("aab","ababacbbaac")

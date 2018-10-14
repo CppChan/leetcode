@@ -1,0 +1,4 @@
+LongestValidParenthesis:
+
+stack作用，既可以记录最长的括号组合，也可以记录是否'）'太多了（用len（stack））， 进'（' append（0）， 进'）'stack[-1]+=2
+若'）'过多，则可以新建stack了。

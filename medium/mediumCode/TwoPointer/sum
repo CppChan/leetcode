@@ -1,0 +1,11 @@
+1, 用双端deque解决，deque里存放index，这样可以保证index不超出windowsize
+
+2， 在长string中查找短string， 用dic遍历短string， 再在长string中跑
+
+3，substring 题目的套路：
+
+    用dic记录每个元素的个数，记录可以为负数，代表多了，用count记录是否还需要更多元素，
+   1）确定长度k的substring问题，i，j每个loop加一次
+
+
+4,

@@ -5,7 +5,7 @@ class Solution(object):
       if len(s1)==0:return False
       if s1 == s2:
           return True
-      if sorted(s1) != sorted(s2): # prunning
+      if sorted(s1) != sorted(s2): # prunning ！！！that's nice!.
           return False
       for i in xrange(1, len(s1)):
           if (self.isScramble(s1[:i], s2[:i]) and self.isScramble(s1[i:], s2[i:])) or \

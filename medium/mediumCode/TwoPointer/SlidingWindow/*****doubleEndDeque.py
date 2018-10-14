@@ -19,3 +19,6 @@ class Solution(object):
 #At each iteration, first delete the left most element that beyond the window,
 # then begin at rightest side on the left of the array[I], delete elements that are smaller than array[I],
 # finally maintain the deque at decreasing order, and the left most element is the maximum in  window
+
+
+# https://leetcode.com/problems/find-all-anagrams-in-a-string/discuss/92007/Sliding-Window-algorithm-template-to-solve-all-the-Leetcode-substring-search-problem.

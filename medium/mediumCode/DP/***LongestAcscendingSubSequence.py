@@ -13,6 +13,24 @@ def lengthOfLIS(self, nums):
         size = max(i + 1, size)
     return size
 
+class Solution(object):
+  def longest(self, array):
+  	if len(array)==0:return 0
+  	last_element=[array[0]]
+  	for i in range(1,len(array)):
+  		start,end,equal= 0,len(last_element)-1,False
+  		while start<end:
+  			mid = (start+end)/2
+  			if last_element[mid]>array[i]:end = mid
+  			elif last_element[mid]<array[i]:start = mid+1
+  			else:
+  				equal = True
+  				break
+  		if equal:continue
+  		if last_element[end]>array[i]:last_element[end]=array[i]
+  		elif last_element[end]<array[i]:last_element.append(array[i])
+  	return len(last_element)
+
 # For this list, we can have LIS with different length.
 # For length = 1, [1], [3], [5], [2], [8], [4], [6], we pick the one with smallest tail element as the representation of length=1, which is [1]
 # For length = 2, [1,2] [1,3] [3,5] [2,8], ...., we pick [1,2] as the representation of length=2.

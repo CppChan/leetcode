@@ -9,7 +9,7 @@ class Solution(object):
   	for i in range(len(s)):
   		if ord(s[i])-ord('a')<ord(s[best])-ord('a'):best=i
   		letter[ord(s[i])-ord('a')]-=1
-  		if letter[ord(s[i])-ord('a')]==0:break#if a letter is ran out of , then break, because after that letter, can not form a right res.
+  		if letter[ord(s[i])-ord('a')]==0:break#if a letter is ran out of, then break, because after that letter, can not form a right res.
   	back = s[best+1:len(s)]
   	i = 0
   	while i<len(back):
