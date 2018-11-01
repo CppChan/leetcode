@@ -7,7 +7,7 @@ class Solution(object):
   	for item in sorted(dic.iteritems(), key=lambda d: d[0]):
   		temp = sorted(item[1], key = lambda x: x[0])
   		for i in range(len(temp)):
-  			res.append(temp[i][1])
+  			res.extend(temp[i][1])
   	return res
 
   def bianli(self, root, dic, level, index):

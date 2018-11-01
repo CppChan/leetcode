@@ -21,6 +21,7 @@ class Solution(object):
   			newinOrder = inOrder[place+1:len(inOrder)]
   			root.right = self.construct(newinOrder,preOrder)
   		return root
+
   def reconstruct2(self, inOrder, postOrder):
   	if len(inOrder)==0: return None
   	return self.construct2(inOrder, postOrder)

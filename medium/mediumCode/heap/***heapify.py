@@ -18,7 +18,7 @@ class Solution(object):
 			array[i], array[minindex] = array[minindex], array[i]
 			self.minsiftdown(array, n, minindex)
 
-def heapify(self, array):
+def heapify(self, array):# not good version
   	if len(array)==0 or len(array)==1: return array
   	i = (len(array)/2)-1
   	while i>0:

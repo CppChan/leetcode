@@ -1,4 +1,5 @@
 from collections import OrderedDict
+from collections import defaultdict
 
 class TreeNode(object):
     def __init__(self, x):
@@ -12,6 +13,11 @@ class Student(object):
         self.grade = grade
 
 class Solution(object):
+
+    def defaultdicttest(self):
+        d = defaultdict(lambda : 0)
+        d[0]+=1
+        print d[0]
 
     def removekey(self):
         dic = {'a':1,'b':2}
@@ -77,6 +83,7 @@ class Solution(object):
 
 if __name__ == "__main__":
     s = Solution()
+    s.defaultdicttest()
     s.removekey()
     print("***********************")
     print s.percentile95([1,2,3,4,5,6,7,8,9,10])

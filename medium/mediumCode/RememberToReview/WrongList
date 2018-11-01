@@ -41,7 +41,7 @@
 
 20, 想不出来的时候，把遍历过程都列出来找规律
 
-21, in binary search, while i<j will easy to get dead loop
+21, in binary search, while i<j will easy to get dead loop， 因为 i+j/2=i 永远i<j, 此时用i<j-1来代替, why use i<j-1? this can avoid that med = 0 or med = len(s)-1
 
 22， 特别注意！！，在loop里面，如果yi进loop就要对上一次loop的结果进行某种操作，那么要记得当loop结束了，把最后一次loop结果的操作给加上(或者说有没有漏掉最后一次操作）
     详见 TwoPointer/*****AllAnagrams/allAnagrams3

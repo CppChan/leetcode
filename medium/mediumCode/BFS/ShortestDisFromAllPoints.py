@@ -24,18 +24,10 @@ class Solution(object):
   	while len(queue)>0:
   		start = queue.popleft()
   		i,j= start[0],start[1]
-  		if i-1>=0 and grid[i-1][j]==0 and visited[i-1][j]==False:
-  			visited[i-1][j],tempdis[i-1][j]=True,tempdis[i][j]+1
-  			queue.append([i-1,j])
-  		if i+1<len(grid) and grid[i+1][j]==0 and visited[i+1][j]==False:
-  			visited[i+1][j],tempdis[i+1][j]=True,tempdis[i][j]+1
-  			queue.append([i+1,j])
-  		if j-1>=0 and grid[i][j-1]==0 and visited[i][j-1]==False:
-  			visited[i][j-1],tempdis[i][j-1]=True,tempdis[i][j]+1
-  			queue.append([i,j-1])
-  		if j+1<len(grid[0]) and grid[i][j+1]==0 and visited[i][j+1]==False:
-  			visited[i][j+1],tempdis[i][j+1]=True,tempdis[i][j]+1
-  			queue.append([i,j+1])
+  		for x,y in ((i - 1, j), (i + 1, j), (i, j - 1), (i, j + 1)):
+  			if x>=0 and x<len(grid) and y>=0 and y<len(grid[0]) and grid[x][y] == 0 and visited[x][y]==False:
+  				visited[x][y],tempdis[x][y]=True, tempdis[i][j]+1
+  				queue.append([x,y])
   	return tempdis
 
 if __name__=="__main__":

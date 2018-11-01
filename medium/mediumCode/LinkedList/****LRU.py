@@ -31,7 +31,7 @@ class LRUCache(object):
         self.dic[key] = temp
         if len(self.dic) > self.capacity:
             delNode = self.head.next
-            self.remove(self.head.next)
+            self.remove(delNode)
             self.dic.__delitem__(delNode.key)
 
     def remove(self, node): #remove from the head

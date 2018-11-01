@@ -24,21 +24,41 @@ class Solution(object):
             return cmp(x[0], y[0])
 
     def formtrip(self, dic, pos, res, num):
-        if not dic.has_key(pos):
-            if len(res) == num:
-                return True
-            else:
-                return False
-        for i in range(len(dic[pos])):
-            item = dic[pos][i]
-            res.append(item)
-            dic[pos].pop(i)
-            if not self.formtrip(dic, item, res, num):#backtracking
-                dic[pos].insert(i, item)
-                res.pop(-1)
-            else:
-                break
-        if len(res) < num:
-            return False
-        else:
-            return True
+        if num == 1: return True
+        if pos not in dic: return False
+        dests = dic[pos]
+        for i in range(len(dests)):
+            if dests[i][-1] != "*":
+                ori = dests[i]
+                dests[i] = dests[i] + "*"
+                res.append(ori)
+                if self.formtrip(dic, ori, res, num - 1):
+                    return True
+                else:
+                    dests[i] = ori
+                    res.pop(-1)
+        return False
+
+
+s = Solution()
+s.findItinerary([["MUC","LHR"],["JFK","MUC"],["SFO","SJC"],["LHR","SFO"]])
+
+    # def formtrip(self, dic, pos, res, num):
+    #     if not dic.has_key(pos):
+    #         if len(res) == num:
+    #             return True
+    #         else:
+    #             return False
+    #     for i in range(len(dic[pos])):
+    #         item = dic[pos][i]
+    #         res.append(item)
+    #         dic[pos].pop(i)
+    #         if not self.formtrip(dic, item, res, num):#backtracking
+    #             dic[pos].insert(i, item)
+    #             res.pop(-1)
+    #         else:
+    #             break
+    #     if len(res) < num:
+    #         return False
+    #     else:
+    #         return True

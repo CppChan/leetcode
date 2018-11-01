@@ -10,52 +10,42 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="divide.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mediumCode/NextCapital/divide.py">
+    <leaf>
+      <file leaf-file-name="*********findPermutationString.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mediumCode/sumo_logic/*********findPermutationString.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MineSweeper.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mediumCode/NextCapital/MineSweeper.py">
+      <file leaf-file-name="****MultiWordSearch.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mediumCode/sumo_logic/****MultiWordSearch.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="765">
-              <caret line="51" column="22" lean-forward="false" selection-start-line="51" selection-start-column="22" selection-end-line="51" selection-end-column="22" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Planting.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mediumCode/NextCapital/Planting.py">
+      <file leaf-file-name="***SimplyPath.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mediumCode/sumo_logic/***SimplyPath.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="17" lean-forward="false" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="t3.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/mediumCode/mikensy/t3.py">
+      <file leaf-file-name="DepthOfForest.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/mediumCode/DFS/DepthOfForest.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="24" lean-forward="false" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="t1.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mediumCode/mikensy/t1.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -85,6 +75,7 @@
       <find>set</find>
       <find>distEclud</find>
       <find>iter</find>
+      <find>capacity</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -96,57 +87,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/mediumCode/Gaosheng/Round2.py" />
-        <option value="$PROJECT_DIR$/mediumCode/Twilio/input.txt" />
-        <option value="$PROJECT_DIR$/mediumCode/Twilio/IO.py" />
-        <option value="$PROJECT_DIR$/mediumCode/Twilio/dateExchange.py" />
-        <option value="$PROJECT_DIR$/mediumCode/Twilio/dianmian/SmallestLowestCommonAncester.py" />
-        <option value="$PROJECT_DIR$/mediumCode/Twilio/dianmian/GraphNodeValSum.py" />
-        <option value="$PROJECT_DIR$/mediumCode/Twilio/dianmian/DiffEqualsK.py" />
-        <option value="$PROJECT_DIR$/mediumCode/BinaryTree/*****CountCompleteTreeNodes.py" />
-        <option value="$PROJECT_DIR$/mediumCode/Array/Array" />
-        <option value="$PROJECT_DIR$/mediumCode/Linkedin_ML/K_means.py" />
-        <option value="$PROJECT_DIR$/mediumCode/Akuna/ValidHex.py" />
-        <option value="$PROJECT_DIR$/mediumCode/RememberToReview/***PriorityQueue&amp;Queue&amp;StackImplementation.py" />
-        <option value="$PROJECT_DIR$/mediumCode/Akuna/travelDis.py" />
-        <option value="$PROJECT_DIR$/mediumCode/Akuna/Flight.py" />
-        <option value="$PROJECT_DIR$/mediumCode/DP/**LongestAscendingPathInMatrix.py" />
-        <option value="$PROJECT_DIR$/mediumCode/DP/**ArrayHopper_2.py" />
-        <option value="$PROJECT_DIR$/mediumCode/DP/ArrayHopper3.py" />
-        <option value="$PROJECT_DIR$/mediumCode/DP/LongestPalindromicSubstring.py" />
-        <option value="$PROJECT_DIR$/mediumCode/DP/sum" />
-        <option value="$PROJECT_DIR$/mediumCode/DP/**ScrambleString.py" />
-        <option value="$PROJECT_DIR$/mediumCode/stack/sum" />
-        <option value="$PROJECT_DIR$/mediumCode/DP/***LongestAcscendingSubSequence.py" />
-        <option value="$PROJECT_DIR$/mediumCode/DP/***AdjacentBitCount.py" />
-        <option value="$PROJECT_DIR$/mediumCode/recursion/*****RemoveDuplicateLetter.py" />
-        <option value="$PROJECT_DIR$/mediumCode/SlidingWindow/*****doubleEndDeque.py" />
-        <option value="$PROJECT_DIR$/mediumCode/SlidingWindow/sum" />
+        <option value="$PROJECT_DIR$/mediumCode/sumo_logic/putandget.py" />
+        <option value="$PROJECT_DIR$/mediumCode/sumo_logic/LongestSubstringWithoutRepeatence.py" />
+        <option value="$PROJECT_DIR$/mediumCode/TwoPointer/LongestSubstringWithoutRepeatence.py" />
+        <option value="$PROJECT_DIR$/mediumCode/DP/****DecodeWays.py" />
+        <option value="$PROJECT_DIR$/mediumCode/sumo_logic/DecodeWays.py" />
+        <option value="$PROJECT_DIR$/mediumCode/sumo_logic/*****LongestSubstringWithoutRepeatence.py" />
+        <option value="$PROJECT_DIR$/mediumCode/RememberToReview/IfInInterval.py" />
+        <option value="$PROJECT_DIR$/mediumCode/sumo_logic/PolishNotation.py" />
+        <option value="$PROJECT_DIR$/mediumCode/sumo_logic/WordSearch*.py" />
+        <option value="$PROJECT_DIR$/mediumCode/sumo_logic/WordSeach.py" />
+        <option value="$PROJECT_DIR$/mediumCode/sumo_logic/listAnagram.py" />
+        <option value="$PROJECT_DIR$/mediumCode/sumo_logic/****MultiWordSearch.py" />
+        <option value="$PROJECT_DIR$/mediumCode/sumo_logic/***SimplyPath.py" />
+        <option value="$PROJECT_DIR$/mediumCode/sumo_logic/longestpalindrome.py" />
+        <option value="$PROJECT_DIR$/mediumCode/BinaryTree/**FlattenBSToLinkedList.py" />
+        <option value="$PROJECT_DIR$/mediumCode/BinaryTree/*****FlattenBSToLinkedList.py" />
+        <option value="$PROJECT_DIR$/mediumCode/sumo_logic/SearchInRowColSortedMatrix.py" />
+        <option value="$PROJECT_DIR$/mediumCode/LinkedList/****LRU.py" />
+        <option value="$PROJECT_DIR$/mediumCode/sumo_logic/****LRU.py" />
+        <option value="$PROJECT_DIR$/mediumCode/HashTable/*****NumOfIslands" />
+        <option value="$PROJECT_DIR$/mediumCode/PriorityQueue/SkyLine_execute.py" />
+        <option value="$PROJECT_DIR$/mediumCode/PriorityQueue/SkyLine.py" />
+        <option value="$PROJECT_DIR$/mediumCode/sumo_logic/EditDistEqualOne.py" />
+        <option value="$PROJECT_DIR$/mediumCode/BFS/***GraphValidTree.py" />
+        <option value="$PROJECT_DIR$/mediumCode/BFS/***WallAndGates.py" />
+        <option value="$PROJECT_DIR$/mediumCode/BFS/ShortestDisFromAllPoints.py" />
+        <option value="$PROJECT_DIR$/mediumCode/BinaryTree/ReconstructFromPreorderAndInorder.py" />
+        <option value="$PROJECT_DIR$/mediumCode/sumo_logic/**FindLocalMax.py" />
         <option value="$PROJECT_DIR$/mediumCode/RememberToReview/WrongList" />
-        <option value="$PROJECT_DIR$/mediumCode/TwoPointer/*****AllAnagrams.py" />
-        <option value="$PROJECT_DIR$/mediumCode/TwoPointer/*****MinimunWindowSubString.py" />
-        <option value="$PROJECT_DIR$/mediumCode/TwoPointer/sum" />
-        <option value="$PROJECT_DIR$/mediumCode/recursion/sum" />
-        <option value="$PROJECT_DIR$/mediumCode/PriorityQueue/sum" />
-        <option value="$PROJECT_DIR$/mediumCode/PriorityQueue/******TaskSchedular.py" />
-        <option value="$PROJECT_DIR$/mediumCode/peloton/WorkSchedule.py" />
-        <option value="$PROJECT_DIR$/mediumCode/peloton/DeleteNode.py" />
-        <option value="$PROJECT_DIR$/mediumCode/peloton/MostFrequentSubstring.py" />
-        <option value="$PROJECT_DIR$/mediumCode/peloton/ShareInterest.py" />
-        <option value="$PROJECT_DIR$/mediumCode/NextCapital/MineSweeper.py" />
-        <option value="$PROJECT_DIR$/mediumCode/NextCapital/StrengthenPassword.py" />
-        <option value="$PROJECT_DIR$/mediumCode/Array/*****FindFirstMissingPosNum.py" />
-        <option value="$PROJECT_DIR$/mediumCode/DP/**LongestPalindromicSubstring.py" />
-        <option value="$PROJECT_DIR$/mediumCode/lendinghome/LongestPalindrome.py" />
-        <option value="$PROJECT_DIR$/mediumCode/lendinghome/ServerNum.py" />
-        <option value="$PROJECT_DIR$/mediumCode/NextCapital/Planting.py" />
-        <option value="$PROJECT_DIR$/mediumCode/NextCapital/divide.py" />
-        <option value="$PROJECT_DIR$/mediumCode/NextCapital/TrapWater.py" />
-        <option value="$PROJECT_DIR$/mediumCode/tecent/quest1.py" />
-        <option value="$PROJECT_DIR$/mediumCode/tecent/q3.py" />
-        <option value="$PROJECT_DIR$/mediumCode/tecent/q2.py" />
-        <option value="$PROJECT_DIR$/mediumCode/mikensy/t1.py" />
-        <option value="$PROJECT_DIR$/mediumCode/mikensy/t3.py" />
+        <option value="$PROJECT_DIR$/mediumCode/sumo_logic/*********findPermutationString.py" />
+        <option value="$PROJECT_DIR$/mediumCode/sumo_logic/**FlattenBSToLinkedList.py" />
+        <option value="$PROJECT_DIR$/mediumCode/sumo_logic/lowestcommonancestor.py" />
+        <option value="$PROJECT_DIR$/mediumCode/UnionFind/UnionFind.py" />
+        <option value="$PROJECT_DIR$/mediumCode/BFS/NumOfIsland.py" />
+        <option value="$PROJECT_DIR$/mediumCode/BinarySearchTree/LargestBSTSubtree.py" />
+        <option value="$PROJECT_DIR$/mediumCode/DivideAndConquer/***DifferentWaysToAddParentheses.py" />
+        <option value="$PROJECT_DIR$/mediumCode/heap/***heapify.py" />
+        <option value="$PROJECT_DIR$/mediumCode/BinaryTree/***KthSmallestElementInBST" />
+        <option value="$PROJECT_DIR$/mediumCode/BinaryTree/***KthSmallestElementInBST.py" />
+        <option value="$PROJECT_DIR$/mediumCode/BinaryTree/BinaryTreeVerticalOrderTraversal.py" />
+        <option value="$PROJECT_DIR$/mediumCode/RememberToReview/SortDictionary.py" />
+        <option value="$PROJECT_DIR$/mediumCode/sumo_logic/count_letter.py" />
+        <option value="$PROJECT_DIR$/mediumCode/DFS/****AddictiveNum.py" />
+        <option value="$PROJECT_DIR$/mediumCode/RememberToReview/*****Cmp_implementation.py" />
+        <option value="$PROJECT_DIR$/mediumCode/DFS/****ReconstructItinerary.py" />
+        <option value="$PROJECT_DIR$/mediumCode/DFS/**FactorCombinations.py" />
+        <option value="$PROJECT_DIR$/mediumCode/DFS/**FlipGame.py" />
+        <option value="$PROJECT_DIR$/mediumCode/DFS/****FlipGame.py" />
+        <option value="$PROJECT_DIR$/mediumCode/Google/Playchess.py" />
+        <option value="$PROJECT_DIR$/mediumCode/RememberToReview/NumberChain.py" />
+        <option value="$PROJECT_DIR$/mediumCode/sumo_logic/****DecodeWays.py" />
       </list>
     </option>
   </component>
@@ -169,8 +160,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -187,13 +178,13 @@
               <item name="medium" type="b2602c69:ProjectViewProjectNode" />
               <item name="medium" type="462c0819:PsiDirectoryNode" />
               <item name="mediumCode" type="462c0819:PsiDirectoryNode" />
-              <item name="mikensy" type="462c0819:PsiDirectoryNode" />
+              <item name="DFS" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="medium" type="b2602c69:ProjectViewProjectNode" />
               <item name="medium" type="462c0819:PsiDirectoryNode" />
               <item name="mediumCode" type="462c0819:PsiDirectoryNode" />
-              <item name="tecent" type="462c0819:PsiDirectoryNode" />
+              <item name="sumo_logic" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -206,17 +197,18 @@
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/chenxijia/personal/code/LaiCode/medium/mediumCode/Gaosheng/*****removeComment.py" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/mediumCode/TwoPointer" />
-      <recent name="$PROJECT_DIR$/mediumCode/stack" />
-      <recent name="$PROJECT_DIR$/mediumCode/Linkedin_ML" />
-      <recent name="$PROJECT_DIR$/mediumCode/Queue" />
-      <recent name="$PROJECT_DIR$/mediumCode/RememberToReview" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/mediumCode/sumo_logic" />
       <recent name="$PROJECT_DIR$/mediumCode/SlidingWindow" />
       <recent name="$PROJECT_DIR$/mediumCode/RememberToReview" />
       <recent name="$PROJECT_DIR$/mediumCode/BFS" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/mediumCode/PriorityQueue/Skyline" />
+      <recent name="$PROJECT_DIR$/mediumCode/c" />
+      <recent name="$PROJECT_DIR$/mediumCode/sumo_logic" />
+      <recent name="$PROJECT_DIR$/mediumCode/TwoPointer" />
+      <recent name="$PROJECT_DIR$/mediumCode/stack" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -231,111 +223,111 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.t3">
-    <configuration name="q2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.NumberChain">
+    <configuration name="NumberChain" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/mediumCode/tecent" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/mediumCode/RememberToReview" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="medium" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mediumCode/tecent/q2.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mediumCode/RememberToReview/NumberChain.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="q3" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="Playchess" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/mediumCode/tecent" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/mediumCode/Google" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="medium" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mediumCode/tecent/q3.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mediumCode/Google/Playchess.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="quest1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="****ReconstructItinerary" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/mediumCode/tecent" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/mediumCode/DFS" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="medium" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mediumCode/tecent/quest1.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mediumCode/DFS/****ReconstructItinerary.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="t1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="*****Cmp_implementation" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/mediumCode/mikensy" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/mediumCode/RememberToReview" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="medium" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mediumCode/mikensy/t1.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mediumCode/RememberToReview/*****Cmp_implementation.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="t3" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="count_letter" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/mediumCode/mikensy" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/mediumCode/sumo_logic" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="medium" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mediumCode/mikensy/t3.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mediumCode/sumo_logic/count_letter.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.quest1" />
-      <item index="1" class="java.lang.String" itemvalue="Python.q3" />
-      <item index="2" class="java.lang.String" itemvalue="Python.q2" />
-      <item index="3" class="java.lang.String" itemvalue="Python.t3" />
-      <item index="4" class="java.lang.String" itemvalue="Python.t1" />
+      <item index="0" class="java.lang.String" itemvalue="Python.count_letter" />
+      <item index="1" class="java.lang.String" itemvalue="Python.*****Cmp_implementation" />
+      <item index="2" class="java.lang.String" itemvalue="Python.****ReconstructItinerary" />
+      <item index="3" class="java.lang.String" itemvalue="Python.Playchess" />
+      <item index="4" class="java.lang.String" itemvalue="Python.NumberChain" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.t3" />
-        <item index="1" class="java.lang.String" itemvalue="Python.t1" />
-        <item index="2" class="java.lang.String" itemvalue="Python.q2" />
-        <item index="3" class="java.lang.String" itemvalue="Python.q3" />
-        <item index="4" class="java.lang.String" itemvalue="Python.quest1" />
+        <item index="0" class="java.lang.String" itemvalue="Python.NumberChain" />
+        <item index="1" class="java.lang.String" itemvalue="Python.Playchess" />
+        <item index="2" class="java.lang.String" itemvalue="Python.****ReconstructItinerary" />
+        <item index="3" class="java.lang.String" itemvalue="Python.*****Cmp_implementation" />
+        <item index="4" class="java.lang.String" itemvalue="Python.count_letter" />
       </list>
     </recent_temporary>
   </component>
@@ -362,13 +354,13 @@
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17336152" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20918985" sideWeight="0.28047922" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33978236" sideWeight="0.7195208" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26602176" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22853687" sideWeight="0.7195208" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15961306" sideWeight="0.8914729" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34099153" sideWeight="0.8357999" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34099153" sideWeight="0.8357999" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -416,11 +408,6 @@
           <option name="timeStamp" value="60" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/mediumCode/BinaryTree/ReconstructFromPreorderAndInorder.py</url>
-          <line>61</line>
-          <option name="timeStamp" value="134" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/mediumCode/DFS/TwoSubSetsWithMinDiff.py</url>
           <line>31</line>
           <option name="timeStamp" value="150" />
@@ -431,9 +418,9 @@
           <option name="timeStamp" value="151" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/mediumCode/mikensy/t1.py</url>
-          <line>25</line>
-          <option name="timeStamp" value="244" />
+          <url>file://$PROJECT_DIR$/mediumCode/DFS/****ReconstructItinerary.py</url>
+          <line>26</line>
+          <option name="timeStamp" value="264" />
         </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
@@ -446,7 +433,7 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="245" />
+      <option name="time" value="265" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -500,306 +487,147 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/mediumCode/TwoPointer/sum">
+    <entry file="file://$PROJECT_DIR$/mediumCode/sumo_logic/longestpalindrome.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mediumCode/TwoPointer/*****AllAnagrams.py">
+    <entry file="file://$PROJECT_DIR$/mediumCode/sumo_logic/Skyline/SkyLine.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="26" selection-end-column="17" />
+        <state relative-caret-position="-1">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mediumCode/TwoPointer/LongestSubstringWithAtMostKDistinctChar.py">
+    <entry file="file://$PROJECT_DIR$/mediumCode/BitProcess/***PowerOfTwo.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mediumCode/TwoPointer/*****MinimunWindowSubString.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="49" column="17" lean-forward="false" selection-start-line="49" selection-start-column="17" selection-end-line="49" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mediumCode/RememberToReview/WrongList">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="536">
-          <caret line="46" column="47" lean-forward="false" selection-start-line="46" selection-start-column="47" selection-end-line="46" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mediumCode/TwoPointer/*****SmallestSubstringContainingAllCharactersOfAnotherString.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="84" lean-forward="false" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="84" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mediumCode/recursion/PermutaitionSequence.py">
+    <entry file="file://$PROJECT_DIR$/mediumCode/BitProcess/***NumberOfDifferentBits.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mediumCode/recursion/sum">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mediumCode/recursion/*****RemoveDuplicateLetter.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="26" lean-forward="false" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mediumCode/HashTable/****ContainsDupWithinKAndT.py">
+    <entry file="file://$PROJECT_DIR$/mediumCode/BitProcess/*****HexadecimaRepresentation.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mediumCode/stack/***SortWithTwoStack.py">
+    <entry file="file://$PROJECT_DIR$/mediumCode/BitProcess/BitwiseAndOfNumberRange.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mediumCode/stack/***SortWithThreeStack.py">
+    <entry file="file://$PROJECT_DIR$/mediumCode/BitProcess/CountingBits.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mediumCode/DFS/****AddictiveNum.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
-          <caret line="6" column="18" lean-forward="false" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mediumCode/stack/***SimplyPath.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mediumCode/stack/***LongestValidParenthesis.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="14" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mediumCode/PriorityQueue/sum">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="20" lean-forward="true" selection-start-line="0" selection-start-column="20" selection-end-line="0" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mediumCode/TwoPointer/sum">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="2" lean-forward="false" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mediumCode/LinkedList/AddTwoNumbers.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mediumCode/LinkedList/****ReorderLinkedList.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="3" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mediumCode/peloton/ShareInterest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="13" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mediumCode/peloton/MostFrequentSubstring.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="65" lean-forward="false" selection-start-line="20" selection-start-column="65" selection-end-line="20" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mediumCode/Array/*****FindFirstMissingPosNum.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="2" lean-forward="false" selection-start-line="16" selection-start-column="2" selection-end-line="16" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mediumCode/DP/**LongestPalindromicSubstring.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="42" lean-forward="true" selection-start-line="2" selection-start-column="42" selection-end-line="2" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mediumCode/PriorityQueue/******TaskSchedular.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="370">
-          <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="32" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mediumCode/peloton/DeleteNode.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="17" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mediumCode/lendinghome/ServerNum.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="34" column="19" lean-forward="false" selection-start-line="34" selection-start-column="19" selection-end-line="34" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mediumCode/peloton/WorkSchedule.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="46" lean-forward="false" selection-start-line="1" selection-start-column="46" selection-end-line="1" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mediumCode/test/testarray.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mediumCode/testdic.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mediumCode/lendinghome/LongestPalindrome.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mediumCode/NextCapital/divide.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <caret line="6" column="79" lean-forward="false" selection-start-line="6" selection-start-column="79" selection-end-line="6" selection-end-column="79" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mediumCode/NextCapital/MineSweeper.py">
+    <entry file="file://$PROJECT_DIR$/mediumCode/DFS/****NumberOfIsland.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="765">
-          <caret line="51" column="22" lean-forward="false" selection-start-line="51" selection-start-column="22" selection-end-line="51" selection-end-column="22" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mediumCode/RememberToReview/*****Cmp_implementation.py">
+    <entry file="file://$PROJECT_DIR$/mediumCode/DFS/****NQueen.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mediumCode/NextCapital/StrengthenPassword.py">
+    <entry file="file://$PROJECT_DIR$/mediumCode/DFS/***4SUM.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mediumCode/DFS/****ReconstructItinerary.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="28" lean-forward="true" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mediumCode/DFS/***RemoveInvalidParentheses.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-86">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mediumCode/DFS/allSubsetsOfASet.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mediumCode/Google/Playchess.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="465">
-          <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="32" selection-end-column="18" />
+          <caret line="31" column="6" lean-forward="false" selection-start-line="31" selection-start-column="6" selection-end-line="31" selection-end-column="6" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mediumCode/Twilio/IO.py">
+    <entry file="file://$PROJECT_DIR$/mediumCode/Special/****ValidParenthesisStringWith*">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mediumCode/Queue/*****maximumValuesOfSizeKSlidingWindows.py">
+    <entry file="file://$PROJECT_DIR$/mediumCode/DFS/****FlipGame.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="25" lean-forward="true" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+        <state relative-caret-position="105">
+          <caret line="7" column="74" lean-forward="false" selection-start-line="7" selection-start-column="74" selection-end-line="7" selection-end-column="74" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mediumCode/RememberToReview/***PriorityQueue&amp;Queue&amp;StackImplementation.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="473">
-          <caret line="67" column="14" lean-forward="false" selection-start-line="67" selection-start-column="14" selection-end-line="67" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mediumCode/RememberToReview/__init__.py">
+    <entry file="file://$PROJECT_DIR$/mediumCode/DFS/**FactorCombinations.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mediumCode/RememberToReview/****RemoveAndinsertAndPop.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mediumCode/RememberToReview/*****test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mediumCode/RememberToReview/KthClosestPointTothreeZero.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mediumCode/RememberToReview/NumberChain.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mediumCode/RememberToReview/SortDictionary.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="370">
-          <caret line="33" column="28" lean-forward="false" selection-start-line="33" selection-start-column="24" selection-end-line="33" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mediumCode/RememberToReview/NumberOfContinuousSubArray.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="18" selection-end-column="12" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -807,60 +635,266 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mediumCode/NextCapital/TrapWater.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mediumCode/tecent/quest1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="16" lean-forward="true" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mediumCode/tecent/q3.py">
+    <entry file="file://$PROJECT_DIR$/mediumCode/RememberToReview/*****RecoverBinarySearchTree.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mediumCode/tecent/q2.py">
+    <entry file="file://$PROJECT_DIR$/mediumCode/RememberToReview/*****test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mediumCode/NextCapital/Planting.py">
+    <entry file="file://$PROJECT_DIR$/mediumCode/RememberToReview/****RemoveAndinsertAndPop.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mediumCode/RememberToReview/*****Cmp_implementation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="24" lean-forward="false" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mediumCode/RememberToReview/***PriorityQueue&amp;Queue&amp;StackImplementation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-702">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#31#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mediumCode/RememberToReview/****PythonMethodFromProject.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mediumCode/RememberToReview/findMinDiff.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-14">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mediumCode/RememberToReview/KthClosestPointTothreeZero.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mediumCode/RememberToReview/IfInInterval.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mediumCode/RememberToReview/NumberChain.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="10" lean-forward="true" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mediumCode/RememberToReview/NumberOfContinuousSubArray.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mediumCode/RememberToReview/SortDictionary.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1422">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mediumCode/RememberToReview/WrongList">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-545">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mediumCode/TwoPointer/*****AllAnagrams.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
-          <caret line="19" column="17" lean-forward="false" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
+          <caret line="19" column="15" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mediumCode/mikensy/t1.py">
+    <entry file="file://$PROJECT_DIR$/mediumCode/sumo_logic/****DecodeWays.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+        <state relative-caret-position="120">
+          <caret line="8" column="81" lean-forward="false" selection-start-line="8" selection-start-column="81" selection-end-line="8" selection-end-column="81" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mediumCode/mikensy/t3.py">
+    <entry file="file://$PROJECT_DIR$/mediumCode/sumo_logic/*****LongestSubstringWithoutRepeatence.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="24" lean-forward="false" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
+        <state relative-caret-position="210">
+          <caret line="14" column="12" lean-forward="true" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mediumCode/sumo_logic/*********findPermutationString.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mediumCode/sumo_logic/****MultiWordSearch.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mediumCode/sumo_logic/PolishNotation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mediumCode/LinkedList/****IterateLinkedList.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mediumCode/sumo_logic/lowestcommonancestor.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="17" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mediumCode/LinkedList/****ReorderLinkedList.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mediumCode/LinkedList/***MergeKSortedLists.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mediumCode/sumo_logic/**kthSmallestSumInTwoSortedArray.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mediumCode/sumo_logic/**FlattenBSToLinkedList.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mediumCode/sumo_logic/**FindLocalMax.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mediumCode/sumo_logic/***SimplyPath.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mediumCode/DFS/BinaryTreePathSumToTarget III.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mediumCode/DFS/buildValidParenthesis.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mediumCode/sumo_logic/Skyline/SkyLine_execute.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mediumCode/DFS/CombineTelephoneNum.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mediumCode/DFS/DepthOfForest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>

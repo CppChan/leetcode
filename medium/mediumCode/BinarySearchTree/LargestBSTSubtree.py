@@ -6,7 +6,7 @@ class Solution(object):
   def findBST(self, root):
   	if not root:return None
   	elif not root.left and not root.right:
-  		return (1, (root.val,root.val), True)
+  		return (1, (root.val,root.val), True) # (root.val,root.val) is the min and max from this subtree
   	one = self.findBST(root.left)
   	two = self.findBST(root.right)
   	if (one and two) and(one[2] and two[2]) and (one[1][1]<root.val and two[1][0]>root.val):

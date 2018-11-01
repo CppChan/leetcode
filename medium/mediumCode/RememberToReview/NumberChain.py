@@ -10,3 +10,7 @@ if __name__ == "__main__":
             v.sort(cmp=lambda x, y: cmp(x + y, y + x), reverse=True)
         #     print v
             print('0' if v[0] == '0'else "".join(v))
+
+    a = [1,2,3,4,5]
+    a.reverse()
+    print a

@@ -1,0 +1,14 @@
+Q2:  有总共x个share，有很多个竞标者，表示为（bidder_id, share_num, price, timestamp)，share_num是每个人的share需求
+    根据每个竞标者给的price从高到低，然后相同price的按照timestamp从小到大来分配share， 如果
+    price相同，则给相同price的轮流发1个share，直到总share用完，或者这些相同price的人的share需求
+    都给满足了。求最后一个share都没有得到的人的list，按照bidder_id从小到大输出。
+
+solution： 先按照price和timestamp排序，然后遍历一次，给相同price的人的index分到同一个group里，同时记录每个group的price和，
+            最后再加到总的group_list里面。然后对于每个group，如果totalshare数小于len(group)，则记录到哪个bidder是开始
+            没有得到share的，然后后面的都没有share了，else， 对比totalshare与group_sum的大小，如果小于groupsum，则从
+            下一个group开始的bidder就没有share了
+
+Q3：给一个list，代表数轴上的点，如[2,5,1,6,9] 代表从2跑到5，从5跑到1。。。。。。
+    求经过次数最多的的点。
+
+    用dict记录经过次数，然后用heap输出， 超时。

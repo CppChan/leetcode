@@ -1,34 +1,20 @@
 class QuicksSort(object):
-    def quickSort(self, array):
-        """
-        input: int[] array
-        return: int[]
-        """
-        # write your solution here
-        start = 0
-        end = len(array) - 1
-        key = array[0]
-        result = self.swap(array, start, end)
-        return result
+    def quicksort(self, input):
+        self.helper(input, 0, len(input) - 1)
+        return input
 
-    def swap(self, array, low, high):
-        start = low
-        end = high
-        key = array[start]
-        while (start < end):
-            while (key <= array[end] and start < end):
-                end = end - 1
-            if (key > array[end]):
-                temp = array[end]
-                array[end] = key
-                array[start] = temp
-            while (key >= array[start] and start < end):
-                start = start + 1
-            if (key < array[start]):
-                temp = array[start]
-                array[start] = key
-                array[end] = temp
-        if (start == end and start > low):
-            self.swap(array, low, start)
-        if (start == end and start < high):
-            self.swap(array, start + 1, high)
+    def helper(self, input, start, end):
+        temp, begin, last = start, start, end
+        while start < end:
+            while input[temp] <= input[end] and start < end:
+                end -= 1
+            if input[temp] > input[end]:
+                input[temp], input[end] = input[end], input[temp]
+                temp = end
+            while input[temp] >= input[start] and start < end:
+                start += 1
+            if input[temp] < input[start]:
+                input[temp], input[start] = input[start], input[temp]
+                temp = start
+        if begin < temp: self.helper(input, begin, temp)
+        if temp < last: self.helper(input, temp + 1, last)

@@ -1,20 +1,16 @@
 class Solution(object):
-  def longest(self, input):
-  	if len(input)==0:return 0
-  	dic = {input[0]:0}
-  	if len(input)==1:return 1
-  	i,j,res= 0,1,1
-  	while i<j and i<len(input) and j<len(input):
-  		if not dic.has_key(input[j]):
-  			dic[input[j]]=j
-  		else:
-  			pre = dic[input[j]]
-  			for k in range(i, pre+1):
-  				dic.__delitem__(input[k])
-  			dic[input[j]]=j
-  			i = pre+1
-  		res = max(res, j-i+1)
-  		j+=1
-  	return res
+  def lengthOfLongestSubstring(self, s):
+    dic,length,res= {},0,[]
+    i,j = 0,0
+    while j<len(s):
+    	if s[j] in dic and dic[s[j]]>=i:i = dic[s[j]]+1#corner!!!!!
+    	dic[s[j]]=j
+    	if j-i+1>length:
+    		res = [s[i:j+1]]
+    		length = j-i+1
+    	elif j-i+1 == length: res.append(s[i:j+1])
+    	j+=1
+    return length
+
 
 #maintain two pointers

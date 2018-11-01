@@ -1,5 +1,6 @@
+from collections import Counter
 class Solution(object):
-  def allAnagrams1(self, p,s):
+  def allAnagrams1(self, s,p):
         res = []
         n, m = len(s), len(p)
         if n < m: return res
@@ -18,26 +19,22 @@ class Solution(object):
 
 #https://leetcode.com/problems/find-all-anagrams-in-a-string/discuss/92007/Sliding-Window-algorithm-template-to-solve-all-the-Leetcode-substring-search-problem.
 
-  def allAnagrams(self, p, s):
-      if len(s) < len(p): return []
-      dic, k, res = {}, len(p), []
-      for i in range(len(p)):
-          if p[i] not in dic:dic[p[i]] = 1
-          else:dic[p[i]] += 1
-      i, j = 0, 0
-      while j < len(s):
-          if len(dic) == 0: res.append(j - k)
-          if s[j] in dic:dic[s[j]] -= 1
-          elif s[j] not in dic:dic[s[j]] = -1
-          if j >= k:
-              if s[i] in dic:dic[s[i]] += 1
-              elif s[i] not in dic:dic[s[i]] = 1
-              if dic[s[i]] == 0: dic.__delitem__(s[i])
-              i += 1
-          if s[j] in dic and dic[s[j]] == 0: dic.__delitem__(s[j])#if s[j] in dic? because s[i]may =s[j] and maybe deleted previously
-          j += 1
-      if len(dic) == 0: res.append(j - k)#dont forgot the last loop's operation
-      return res
+  def findAnagrams(self, a, b):
+  	if len(a)<len(b):return []
+  	res,dic,i,j= [],Counter(list(b)),0,0
+  	while j<len(a):
+  		if a[j] not in dic: dic[a[j]] = -1
+  		else: dic[a[j]]-=1
+  		if dic[a[j]]==0:dic.__delitem__(a[j])
+  		if j-i==len(b):
+  			if a[i] not in dic:dic[a[i]]=1
+  			else: dic[a[i]]+=1
+  			if dic[a[i]]==0:dic.__delitem__(a[i])
+  			i+=1
+  		if len(dic)==0:res.append(i)
+  		j+=1
+  	return res
+
 
 
 if __name__ == "__main__":

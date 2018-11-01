@@ -1,4 +1,3 @@
-import math
 class Solution(object):
   def combinations(self, n):
   	res, temp= [],[]
