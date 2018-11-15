@@ -41,7 +41,8 @@ class Solution2(object):
 		k = len(array) - 1
 		while (j <= k):
 			if (array[j] == -1):
-				self.swap(array, i, j)
+				self.swap(array, i, j) # here, array[i], array[j] wont be 1, 1 must have been moved to last,
+				# array[i] wont be -1, because when array[i]==-1, must i++, so array[i] must be 0
 				i, j = i + 1, j + 1
 			elif (array[j] == 0):
 				j = j + 1

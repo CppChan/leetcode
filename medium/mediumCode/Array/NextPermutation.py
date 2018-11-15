@@ -1,32 +1,29 @@
-class Solution(object):
-    def nextPermutation(self, num):
-        if len(num) == 0 or len(num) == 1: return num
-        j = len(num) - 2
-        while j >= 0:
-            if num[j] < num[j + 1]:
-                break
-            else:
-                j -= 1
-        if j < 0:
-            self.exchange(num, 0, len(num) - 1)
-            return num
-        for i in range(j + 1, len(num)):
-            if num[i] < num[j]: break
-        if i == len(num) - 1 and num[i] > num[j]:
-            index = i
-        else:
-            index = i - 1
-        temp = num[index]
-        num[index] = num[j]
-        num[j] = temp
-        self.exchange(num, j + 1, len(num) - 1)
-        return num
 
-    def exchange(self, num, start, end):
-        temp = 0
-        while start < end:
-            temp = num[end]
-            num[end] = num[start]
-            num[start] = temp
-            start += 1
-            end -= 1
+#begin from last element, when encounter nums[j]<nums[j+1], swap nums[j] with the first larger than nums[j] element in the behind part
+#like 32431 -> 33421, then sort the behind part ->33124
+class Solution(object):
+    def nextPermutation(self, nums):
+        if len(nums) == 0 or len(nums) == 1:
+            a = 0
+        else:
+            j, hasswap = len(nums) - 2, False
+            while j >= 0:
+                if nums[j] < nums[j + 1]:
+                    for i in range(len(nums) - 1, j, -1):
+                        if nums[i] > nums[j]:
+                            self.swap(nums, i, j)
+                            break
+                    j += 1
+                    hasswap = True
+                if hasswap or j == 0:
+                    k = len(nums) - 1
+                    while j < k:
+                        self.swap(nums, j, k)
+                        j, k = j + 1, k - 1
+                    break
+                j -= 1
+
+    def swap(self, nums, a, b):
+        temp = nums[a]
+        nums[a] = nums[b]
+        nums[b] = temp
