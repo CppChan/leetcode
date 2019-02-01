@@ -46,8 +46,35 @@
 22， 特别注意！！，在loop里面，如果yi进loop就要对上一次loop的结果进行某种操作，那么要记得当loop结束了，把最后一次loop结果的操作给加上(或者说有没有漏掉最后一次操作）
     详见 TwoPointer/*****AllAnagrams/allAnagrams3
 
+23 有时候在list 或者stack 开头或者结尾加个-1，会有不同的效果，比如 i==0, i-(-1)=1
 
+24 有关排序的问题，只要跟排序有关， 就可以想得到用index数组来表示整个数组，比如 index 0 =》 最小数..., 然后通过swap可以将数组正确排序。 比如找第一个missing positive的题
 
+25 开、关问题可以转化为-1， 1问题， 比如meeting room，先设置一个time数组（max time-min time），开room +1， 关room -1， current active room数就是所需要的最大房间数量。
+
+26 数组乱序=》有序问题， 或者数组有序=》乱序问题（有序即value对应其index）， 套路是某几个数之间会组成一个cycle，cycle内的元素互相打乱了顺序，可以用搜索来detect cycle，然后回滚其顺序。
+
+27 通过prefix sum + 对比每个sum的模余来判断sub array sum to target
+
+28 merging interval 问题，维护两个指针，pre 和 back，分别代表对于每个单独的interval，其真实开始和结束时间（可能被前一个interval覆盖了，所以要通过max（。。）来算一次）
+
+29 array问题想到负数的情况！！！不要只考虑正整数
+
+30 一个对象传到一个方法之后，虽然名一样，但是对象是复制了的，然后在方法里重新引用一个新的东西，是不会改变原来对象的！
+
+31 括号的问题想到用stack， + 括号计数， 用num记住第几层括号了， 当"）"的时候pop，
+
+32 除了"*"的decode方式标志visited，还可以用str（start_index）来表示一条走过的路
+
+33 isdigit() only works for str, for an object, use type(nums[i])==int
+
+34 关于字母／单词的题，想到用int[26]来表示该单词
+
+35 'set'/dict  object does not support indexing!!!!!!!
+
+36 bfs的时候，还可以用map来记录某个点在第几层
+
+37 list.reverse()不会返回任何东西，只是原地将这个list reverse了
 
 典型的O n 方法：
 dp
@@ -57,7 +84,7 @@ two pointer i j 一起动
 
 
 方法：
-1，将0 1 问题换成-1 1 问题， -1+1=0
+1，将0 1 问题换成-1 1 问题， -1+1=0，
 
 2， 新学的一种排序方法 O(n)，不过浪费空间， 遍历数组得到min 和 max， 创建max-min+1 size 的数组list， 在遍历一次数组，将list中对应index的数改写为（+1，-1） 或者数组值
 
@@ -69,4 +96,8 @@ two pointer i j 一起动
 
 6, search string in another string problem: 用dic记录length小的string P 的element个数， 遍历大的string S， 同时dic加减，可以有负数存在（代表S的substring所含该element过多）
 
-7, 滑动窗口(size = k)问题，用list来存index， 当遍历到i 的时候，i-list[0](最小的index）>k, 则list.popleft()（ 详见 slidingWindow）
+7, 滑动窗口(size = k)问题，用list来存index， 当遍历到i 的时候，i-list[0](最小的index）>k, 则list.popleft()（详见 slidingWindow）
+
+8， 各种sum的问题 ，2 3 4sum，以及 a+b+c=d  a+b=c+d 善用hashmap来处理， 4sum用 dfs+2sum来处理
+
+9 背包问题注意事项： 初始数组长度应该为 物品数+1，钱数+1，

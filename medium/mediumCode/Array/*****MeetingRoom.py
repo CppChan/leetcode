@@ -1,3 +1,9 @@
+# method 1
+
+#use +1 and -1 to indicate start and end time in a time lists
+#think like +1 means open a room for use(may be new or has previously used), -1 means temporary close a room(but may be for future use)
+# and num means the number of room now being used, res means how many rooms has opened
+
 class Solution(object):
   def minMeetingRooms(self, interval):
   	if len(interval)==0 or len(interval)==1:return 1
@@ -12,32 +18,22 @@ class Solution(object):
   	num,res=0,0
   	for i in range(len(time)):
   		num+=time[i]
-  		res = max(res, num)
+  		res = max(res, num) #when room be open, it will be count into res
   	return res
 
-#use +1 and -1 to indicate start and end time in a time lists
+# method 2
+import heapq
 
-#or can use sort and greedy and heap
+def minMeetingRooms(self, intervals):
+	if len(intervals) == 0: return 0
+	intervals.sort(key=lambda x: x.start)
+	room = [intervals[0].end]
+	heapq.heapify(room)
+	for i in range(1, len(intervals)):
+		if intervals[i].start >= room[0]: heapq.heappop(room)
+		heapq.heappush(room, intervals[i].end)
+	return len(room)
 
-# public class Solution {
-#     public int minMeetingRooms(Interval[] intervals) {
-#         if(intervals == null || intervals.length == 0) return 0;
-#         Arrays.sort(intervals, new Comparator<Interval>(){
-#            @Override
-#            public int compare(Interval a, Interval b){
-#                return (a.start - b.start);
-#            }
-#         });
-#
-#         PriorityQueue<Integer> pq = new PriorityQueue<Integer>();
-#         pq.add(intervals[0].end);
-#         for(int i=1; i<intervals.length; i++){
-#             if(intervals[i].start >= pq.peek()){
-#                 pq.poll();
-#             }
-#             pq.add(intervals[i].end);
-#         }
-#         return pq.size();
-#     }
-# }
+
+
 

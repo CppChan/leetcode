@@ -15,6 +15,26 @@ class Solution(object):
   		front.next = front.next.next
   	return dummy.next
 
+    #Better solution, do it recursively and iteratively
+    def reverseList(self, head):
+        if not head: return head
+        dummy = ListNode(0)
+        cur = head
+        while cur.next:
+            cur = cur.next
+        dummy.next = cur
+        self.helper(head, dummy)
+        return dummy.next
+
+    def helper(self, point, dummy):
+        if not point.next: return point
+        back = self.helper(point.next, dummy)
+        back.next = point
+        point.next = None
+        back = back.next
+        return back
+
+
 if __name__ == "__main__":
     one = ListNode(1)
     one.next = ListNode(2)

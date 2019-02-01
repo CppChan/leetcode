@@ -1,17 +1,19 @@
-def lengthOfLIS(self, nums):
-    tails = [0] * len(nums)
-    size = 0#final result
-    for x in nums:
-        i, j = 0, size
-        while i != j:
-            m = (i + j) / 2
-            if tails[m] < x:
-                i = m + 1
-            else:
-                j = m
-        tails[i] = x
-        size = max(i + 1, size)
-    return size
+def lengthOfLIS(self, array):
+    if len(array) == 0: return 0
+    lenlist = [array[0]]
+    for i in range(1, len(array)):
+        j, k = 0, len(lenlist) - 1
+        while j < k:
+            mid = (j + k) / 2
+            if lenlist[mid] >= array[i]:
+                k = mid
+            elif lenlist[mid] < array[i]:
+                j = mid + 1
+        if array[i] < lenlist[j]:
+            lenlist[j] = array[i]
+        elif array[i] > lenlist[j]:
+            lenlist.append(array[i])
+    return len(lenlist)
 
 class Solution(object):
   def longest(self, array):

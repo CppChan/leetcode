@@ -15,3 +15,9 @@ class Solution(object):
 
 
 #https://zhidao.baidu.com/question/326608392028269005.html
+
+
+
+if __name__=="__main__":
+	s = Solution()
+	s.intToRoman(1994)

@@ -1,4 +1,4 @@
--public class Solution {
+public class Solution {
   public int smallerPairs(int[] array, int target) {
     Arrays.sort(array);
     int res = 0;

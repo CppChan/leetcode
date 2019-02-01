@@ -26,3 +26,7 @@ if __name__ == "__main__":
     array = sorted(array)#2
     s = solution()
     s.change()
+
+
+    a = "123"
+    b = int(a)

@@ -29,11 +29,6 @@ class Solution(object):
 #general rainbow sort with three colors
 class Solution2(object):
 	def rainbowSort(self, array):
-		"""
-        input: int[] array
-        return: int[]
-        """
-		# write your solution here
 		if len(array) == 0:
 			return []
 		i = 0
@@ -55,3 +50,6 @@ class Solution2(object):
 		temp = array[a]
 		array[a] = array[b]
 		array[b] = temp
+
+
+	# [0,0,-1,1,0,-1,1]
