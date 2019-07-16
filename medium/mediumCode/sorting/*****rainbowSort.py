@@ -35,13 +35,13 @@ class Solution2(object):
 		j = 0
 		k = len(array) - 1
 		while (j <= k):
-			if (array[j] == -1):
-				self.swap(array, i, j) # here, array[i], array[j] wont be 1, 1 must have been moved to last,
-				# array[i] wont be -1, because when array[i]==-1, must i++, so array[i] must be 0
+			if (array[j] == 0):
+				self.swap(array, i, j) # here, array[i], array[j] wont be 2, 2 must have been moved to last,
+				# array[i] wont be 0, because when array[i]==0, must i++, so array[i] must be 1
 				i, j = i + 1, j + 1
-			elif (array[j] == 0):
-				j = j + 1
 			elif (array[j] == 1):
+				j = j + 1
+			elif (array[j] == 2):
 				self.swap(array, j, k)
 				k = k - 1
 		return array
@@ -52,4 +52,4 @@ class Solution2(object):
 		array[b] = temp
 
 
-	# [0,0,-1,1,0,-1,1]
+	# [1,1,0,2,1,0,2]

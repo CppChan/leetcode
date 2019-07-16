@@ -43,6 +43,12 @@
 
 21, in binary search, while i<j will easy to get dead loop， 因为 i+j/2=i 永远i<j, 此时用i<j-1来代替, why use i<j-1? this can avoid that med = 0 or med = len(s)-1
 
+    但是当 更新时候，有i=mid+1操作， 即使 while i<j  也不会造成dead loop， 所以总结起来，当需要找一个element，且更新条件有 i=m+1操作时候，可以用whilei<j
+
+    下次做binary search 的时候，先思考你的更新条件，i怎么变， j怎么变，然后再决定while i。。。j
+
+
+
 22， 特别注意！！，在loop里面，如果yi进loop就要对上一次loop的结果进行某种操作，那么要记得当loop结束了，把最后一次loop结果的操作给加上(或者说有没有漏掉最后一次操作）
     详见 TwoPointer/*****AllAnagrams/allAnagrams3
 

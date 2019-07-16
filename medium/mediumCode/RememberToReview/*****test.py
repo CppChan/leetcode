@@ -30,3 +30,7 @@ if __name__ == "__main__":
 
     a = "123"
     b = int(a)
+
+    print("*******")
+
+    print cmp("sd","dsfds")
